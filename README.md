@@ -10,7 +10,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Cole DenBleyker
 - Giacinto Fioravanti
 - Luke Knofczynski
-- MEMBER05
+- Connor Jantzi
 
 
 ## Prerequisites  <_add anything else that applies_>
