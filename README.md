@@ -11,6 +11,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Giacinto Fioravanti
 - Luke Knofczynski
 - Connor Jantzi
+_ Lucas Tadesse
 
 
 ## Prerequisites  <_add anything else that applies_>
