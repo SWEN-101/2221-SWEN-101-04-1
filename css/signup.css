@@ -67,9 +67,20 @@
     font-weight: 700;
 }
 .main__content form {
-
     background: #f9d66c;
-    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+
+}
+
+input {
+    padding-top: 0;
+    width: 100%;
+    line-height: 150%;
+    border-radius: 3px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
