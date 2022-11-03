@@ -1,0 +1,19 @@
+@import url('style.css');
+
+.review__container{
+	background: #f9d67f;
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+	z-index: 2;
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+.review__box{
+	z-index: 3;
+	margin: 0 auto 1em auto;
+	width: 200px;
+}
