@@ -66,7 +66,16 @@
     font-size: 2rem;
     font-weight: 700;
 }
+.main__content form {
 
+    background: #f9d66c;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 .main__btn {
     font-size: 1.8rem;
     background: #f9d66c;
