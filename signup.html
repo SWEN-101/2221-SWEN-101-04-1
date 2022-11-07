@@ -35,16 +35,24 @@
             </div>
         </nav>
         
+        <!-- Signup Section -->
         <div class="hero" id="home">
             <div class="hero__container">
                 <h1 class="hero__heading">Sign Up Today!</h1>
-                <form class = "form_box">
-                    <label for="email">Email</label><br>
-                    <input type="text" id="email" name="email"><br>
-                    <label for="pword">Password</label><br>
-                    <input type="password" id="pword" name="pword">
-                  </form>
-                <button class="main__btn"><a href='signup.html'>Sign Up</a></button>
+                <form class = "form_box" action="route.html">
+                    <label for="email" class="form__heading">Email</label><br>
+                    <input type="email" id="email" name="email" class="form__input" style="font-size:32px"><br>
+                    <label for="pword" class="form__heading">Password</label><br>
+                    <input type="password" id="pword" name="pword" class="form__input" style="font-size:32px"><br>
+                    <label for="pword" class="form__heading">Confirm Password</label><br>
+                    <input type="password" id="pword" name="pword" class="form__input" style="font-size:32px"><br>
+                    <input type="submit" value="Submit" class="main__btn"><br>
+                </form>
+                <br><br><br>
+                <h1 class="hero__smaller__heading">Login instead!</h1>
+                <form action="login.html">
+                    <input type="submit" value="Login" class="main__btn">
+                </form>
             </div>
         </div>
         

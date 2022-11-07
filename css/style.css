@@ -1,5 +1,6 @@
 
 * {
+    background-color: #f9d66c;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -27,7 +28,7 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 2200px;
     margin: 0 auto;
     padding: 0 50px;
 }
@@ -38,7 +39,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: padding;
     -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
@@ -195,7 +196,7 @@
 /* Hero Section */
 .hero {
     background: #f9d66c;
-    padding: 0px 0px;
+    margin-top: 2rem;
 }
 
 .hero__container {
@@ -217,6 +218,7 @@
     font-style: italic;
 }
 
+
 .hero__smaller__heading {
     font-size: 40px;
     margin-top: 24px;
@@ -227,8 +229,8 @@
 
 .hero__heading span {
     background: #f9d66c;
-    background: -webkit-linear-gradient(to right, #d8a153,#d2a71b);
-    background: linear-gradient(to right,  #d8a153,#d2a71b);
+    background: -webkit-linear-gradient(to right, #C09535, #856D32);
+    background: linear-gradient(to right,  #C09535, #856D32);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;

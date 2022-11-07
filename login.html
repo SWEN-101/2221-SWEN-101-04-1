@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login to Pitstop</title>
         <link rel="stylesheet" href="css/style.css">
-        <link href="css/login.css" rel="stylesheet" type="text/css">
+        <link href="css/signup.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
@@ -35,6 +35,24 @@
             </div>
         </nav>
 
+        <!-- Login Section -->
+        <div class="hero" id="home">
+            <div class="hero__container">
+                <h1 class="hero__heading">Login to <span>Pitstop</span></h1>
+                <form class = "form_box" action="route.html">
+                    <label for="email" class="form__heading">Email</label><br>
+                    <input type="email" id="email" name="email" class="form__input" style="font-size:32px"><br>
+                    <label for="pword" class="form__heading">Password</label><br>
+                    <input type="password" id="pword" name="pword" class="form__input" style="font-size:32px"><br>
+                    <input type="submit" value="Submit" class="main__btn"><br>
+                </form>
+                <br><br><br>
+                <h1 class="hero__smaller__heading">Sign up instead!</h1>
+                <form action="signup.html">
+                    <input type="submit" value="Sign Up" class="main__btn">
+                </form>
+            </div>
+        </div>
 
         <!-- Footer Section -->
         <div class="footer__container">
