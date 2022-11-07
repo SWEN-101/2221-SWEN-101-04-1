@@ -20,4 +20,6 @@
 .review__item{
 	align-items: center;
 	justify-content: center;
+	font-size: 50px;
+	margin-bottom: 10px;
 }
