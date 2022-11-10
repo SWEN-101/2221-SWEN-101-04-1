@@ -6,6 +6,8 @@
         <title>Review Bathroom</title> 
         <link rel="stylesheet" href="css/style.css">
         <link href="css/review.css" rel="stylesheet" type="text/css">
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+		<script type="module" src="./map.js"></script>
     </head>
 
     <body>
@@ -41,6 +43,11 @@
 				<form>
 					<label for="review" class="review__item">Review</label>
 					<br>
+					
+					<!-- Input for location -->
+					<input class="autocomplete" id="input-start" type="text" placeholder="Enter starting location" /><br> 	
+					
+					
 					<label for="rating">Rating:</label>
 					<div class="rating-minimum">
 						<img src="./images/image-3.png" alt="Poop Emoji" width="28" height="29.1">
@@ -98,5 +105,8 @@
             </section>
         </div>
         <script src="app.js"></script>
+		<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLgiczLtmySRRwxRHBkirx3M4SUsB8W68&callback=initMap&libraries=places&v=weekly"
+        defer></script>
     </body>
 </html>
