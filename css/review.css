@@ -1,7 +1,7 @@
 @import url('style.css');
 
 .review__container{
-	background: #f9d67f;
+	background: #f9d66c;
 	display: flex;
 	justify-content: space-between;
 	height: 300px;
@@ -15,11 +15,26 @@
 .review__box{
 	z-index: 3;
 	margin: 0 auto 1em auto;
-
+	padding: 0 100px;
 }
 .review__item{
 	align-items: center;
 	justify-content: center;
 	font-size: 50px;
 	margin-bottom: 10px;
+}
+
+.rating-minimum {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+
+
+textarea {
+	align-items: center;
+	width: 33.9vw;
+	height: 10vh;
+	resize: none;
 }
