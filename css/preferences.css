@@ -1,5 +1,12 @@
 @import url('style.css');
 
 .rating__preferences {
-    background-color: #fff;
+    background: #fff;
+    width: 15rem;
+    line-height: 3rem;
+    border-radius: 3px; 
+    margin: 4px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
