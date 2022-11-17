@@ -34,7 +34,7 @@ Disclaimer:
 - Any kind of data is NOT saved
 
 Bugs:
-    - Large resolutions do not work nicely with some of the other pages.
+- Large resolutions do not work nicely with some of the other pages.
 
 
 ## Link or full list of requirements
