@@ -24,6 +24,11 @@
 	margin-bottom: 10px;
 }
 
+.autocomplete {
+	background-color: #fff;
+	padding-right: 3rem;
+}
+
 .rating-minimum {
     display: flex;
     gap: 1vw;
