@@ -1,15 +1,10 @@
 @import url('style.css');
 
-.review__container{
-	background: #f9d66c;
+.rating-minimum {
 	display: flex;
-	justify-content: space-between;
-	height: 300px;
-	z-index: 2;
-	width: 100%;
-	max-width: 1800px;
-	margin: 0 auto;
-	padding: 0 50px;
+	align-items: center;
+	justify-content: center;
+	gap: 1vw;
 }
 
 .review__box{
@@ -26,17 +21,9 @@
 
 .autocomplete {
 	background-color: #fff;
-	padding-right: 3rem;
+	padding: 0.5rem;
+	font-size: 1rem;
 }
-
-.rating-minimum {
-    display: flex;
-    gap: 1vw;
-    align-items: center;
-}
-
-
-
 
 textarea {
 	align-items: center;
