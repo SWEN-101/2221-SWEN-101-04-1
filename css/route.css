@@ -479,3 +479,25 @@
         width: 100%;
     }
   }
+
+  .main__btn {
+    font-size: 1.5rem;
+    background: #000;
+    background: -webkit-linear-gradient(to right, #d8a153, #d2a71b);
+    background: linear-gradient(to right, #d8a153, #d2a71b);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: border-box;
+    -moz-background-clip: border-box;
+    -webkit-text-fill-color: #fff;
+    -moz-text-fill-color: #fff;
+    padding: 1rem 0rem;
+    border: none;
+    border-radius: 6px;
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
