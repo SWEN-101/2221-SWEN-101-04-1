@@ -25,13 +25,13 @@ An online route planning service built in github.io that plans routes with plann
 ## Known bugs and disclaimers
 
 Disclaimer:
-    - Map is not fully functional as a routing tool.
-    - Login and Signup are NOT secure
-    - Signup and changing passwords do not compare passwords to see if they are the same
-    - Reviewing restroom is just an example
-    - Trying to do preferences will also do nothing.
-    - Poop-emoji rating system does not work :(
-    - Any kind of data is NOT saved
+- Map is not fully functional as a routing tool.
+- Login and Signup are NOT secure
+- Signup and changing passwords do not compare passwords to see if they are the same
+- Reviewing restroom is just an example
+- Trying to do preferences will also do nothing.
+- Poop-emoji rating system does not work :(
+- Any kind of data is NOT saved
 
 Bugs:
     - Large resolutions do not work nicely with some of the other pages.
